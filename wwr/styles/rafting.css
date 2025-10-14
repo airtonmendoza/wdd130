@@ -37,6 +37,10 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 25px;
+}
+
 .hero {
     position: relative;
 }
@@ -70,4 +74,3 @@ h1 {
     width: 125px;
     border: 2px;
 }
-
