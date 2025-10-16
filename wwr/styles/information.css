@@ -71,6 +71,10 @@ header .logo img {
     padding: 1rem; 
 }
 
+.contact-info {
+    text-align: center;
+}
+
 .team { 
     background-color: beige;
     padding: 40px 20px;
