@@ -93,12 +93,18 @@ header .logo img {
 .history {
     background-color: #E0D8FF;
     padding: 40px;
-    text-align: center;
+    text-align: left;
 }
 
 .history h2 {
     font-size: 28px;
     color: #333;
+}
+
+.history img {
+    float: center;
+    width: 100px;
+    border: 2px;
 }
 
 /* Adventure Styling */
