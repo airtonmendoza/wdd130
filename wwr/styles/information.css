@@ -72,9 +72,9 @@ header .logo img {
 }
 
 .team { 
-    display: flex; 
-    gap: 1rem; 
-    flex-wrap: wrap; 
+    background-color: beige;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .employee { 
