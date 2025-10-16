@@ -2,6 +2,26 @@ main {
     max-width: 840px;
 }
 
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    border: 3px;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation li a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
 aside {
     width: 20rem;
     margin: 1rem;
