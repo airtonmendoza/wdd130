@@ -49,6 +49,7 @@ header .logo img {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    box-shadow: 3px;
 }
 
 .navigation li {
