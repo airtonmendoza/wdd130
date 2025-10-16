@@ -2,6 +2,23 @@ header,.grid, main, footer {
     max-width: 840px;
 }
 
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 .grid {
     display: grid;
     align-items: center;
