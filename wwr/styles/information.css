@@ -1,3 +1,70 @@
+:root {
+    --primary-color: #055a05; /*forest green*/
+    --secomdary-color: #f4a261; /*warm sand*/
+    --accent1-color: #264653; /*dark slate blue*/
+    --accent2-color: #e9c46a; /*light golden yellow*/
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* Reset to default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Header styling */
+header {
+    background-color: #8A66FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+/*Navigation style*/
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    border: 3px;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation li a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Contact Information Styling */
 .contact-info, .team, .contact-form { 
     max-width: 960px; 
     margin: 0 auto; 
@@ -38,4 +105,13 @@
 
 @media (max-width: 680px) {
   .employee { width: 100%; }
+}
+
+/* Footer Styling */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 50px;
 }
