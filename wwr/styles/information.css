@@ -87,6 +87,11 @@ header .logo img {
     height: auto; 
     border-radius: 8px; 
 }
+.employee figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
 
 .contact-form form { 
     display: grid;
