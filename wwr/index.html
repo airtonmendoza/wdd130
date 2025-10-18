@@ -1,41 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title> Airton Mendoza | WDD 130</title>
-        <meta name="description" content="Airton Mendoza, WDD130, Rafting site">
-        <meta name="author" content="Airton Mendoza">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div class="grid">
-        <main>
-            <h1> Airton Mendoza | WDD 130</h1>
-            <img src="images/profile.webp" alt="Airton Mendoza" width="200">
-            <p>My name is Airton Mendoza, I am 21 years old and I served in the Peru Chiclayo Mission, I came back home 1 year ago and it's been a great time, I love the missionary work and I'm trying to work as hard as I can to help to share the gospel. I am excited to learn in BYU about Software Development.</p>
-        </main>
-        
-        <aside>
-            <h2>Lima</h2>
-            <img src="images/lima.jpg" alt="Lima, Perú" width="400">
-            <p>Lima is the capital and most populous city of Peru, a vi brant political, cultural, and financial center located on the country's desert coast, facing the Pacific Ocean. We have delicious food here in Peru and we're very kind people.</p>
-        </aside>
-        </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Down The River | Home Page </title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header class="grid">
+    <img src="images/downtheriver.png" alt="Down The River logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <footer>
-            <p>©️2025 ⚽ Airton Mendoza ⚽ Lima, Perú</p>
-        </footer>
-    </body>
+  <main>
+    <!-- Hero Section -->
+    <div class="hero">
+      <img src="images/hero.webp" alt="Rafting adventure in the mountains">
+      <h1>Experience the Thrill with Down The River!</h1>
+      <p>Adventure, excitement, and unforgettable memories await.</p>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+      <h2>Join Our Newsletter</h2>
+      <p>Stay updated with our latest trips, discounts, and rafting tips!</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <h2>Ready for Your Next Adventure?</h2>
+      <p>Book your white water rafting trip today and explore the wild side of nature!</p>
+      <a href="trips.html" class="button">View Our Trips</a>
+    </section>
+
+    <!-- Grid Content -->
+    <section class="grid-content">
+      <div class="grid-item">
+        <img src="images/happy_client.jpg" alt="Group rafting down a river">
+        <h3>Group Adventures</h3>
+        <p>Gather your friends and experience the river together. Perfect for families, companies, or adventure groups.</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="images/rafting-guide.jpg" alt="Professional rafting guide">
+        <h3>Professional Guides</h3>
+        <p>Our certified guides ensure your safety while maximizing your fun on every rapid.</p>
+      </div>
+
+      <div class="grid-item">
+        <img src="images/river-landscape.jpg" alt="Beautiful river landscape">
+        <h3>Unforgettable Views</h3>
+        <p>Enjoy breathtaking views and connect with nature like never before on our guided tours.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="grid">
+    <p>©️2025 Down the River Rafting / Airton Mendoza</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="Linkedin Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram Icon"></a>
+        </nav>
+  </footer>
+</body>
 </html>
